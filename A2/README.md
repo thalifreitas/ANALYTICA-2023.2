@@ -36,7 +36,7 @@ Foram utilizadas as seguintes bases de dados retiradas do repositório Base dos 
 Como a análise é voltada para o ano de 2013, filtrei os dados dos indicadores educacionais exclusivamente para esse ano, 
 utilizando uma consulta SQL no Google BigQuery. O resultado foi então salvo para uso posterior na análise.
 
-[foto consulta SQL]
+![Consulta SQL Indicadores Educacionais](imagens/consulta-sql_01.png)
 
 Como a tabela original continha diversas colunas irrelevantes para os objetivos da análise, foi realizada uma seleção apenas das colunas de interesse. 
 Além disso, aplicou-se um filtro para considerar exclusivamente escolas localizadas em áreas urbanas e da rede estadual.
@@ -96,7 +96,7 @@ O mesmo procedimento foi feito para as taxas de **reprovação** e **abandono** 
 
 Para uma melhor comparação dos dados, foi criado um gráfico de barras agrupadas.
 
-[foto do gráfico ensino fundamental]
+![Gráfico Ensino Fundamental](imagens/grafico-ensino-fundamental.png)
 
 Dessa forma, é fácil perceber que a região Nordeste é a região que possui maior taxa de aprovação, seguida das regiões Norte, Sudeste, Centro-Oeste e Sul.
 
@@ -109,7 +109,7 @@ Por fim, o Nordeste também apresenta a maior taxa de abandono, seguida por Nort
 De forma similar, as mesmas etapas descritas acima foram feitas para o Ensino Médio.
 Ao final, para uma melhor comparação dos dados, foi criado um gráfico de barras agrupadas.
 
-[foto do gráfico ensino médio]
+![Gráfico Ensino Medio](imagens/grafico-ensino-medio.png)
 
 Sendo assim, percebe-se que a região Nordeste é a região que possui maior taxa de aprovação, seguida das regiões Sudeste, Sul, Centro-Oeste e Norte.
 
@@ -123,6 +123,7 @@ Como os dados disponíveis referentes à coleta e tratamento de esgoto eram todo
 restringir os resultados através de uma consulta SQL, como feito anteriormente.
 
 [foto consulta SQL 2]
+![Consulta SQL Esgoto](imagens/consulta-sql_02.png)
 
 Da mesma forma, como a tabela original continha diversas colunas irrelevantes para os objetivos da análise, foi realizada uma seleção apenas das colunas de interesse.
 
@@ -141,7 +142,7 @@ Para uma melhor visualização dos dados, foi criada um gráfico de barras verti
 **Investimento em Tratamento de Esgoto por Região**.
 Esses resultados foram sintetizados em um único gráfico.
 
-[foto do gráfico esgoto]
+![Gráfico esgoto](imagens/grafico-esgoto.png)
 
 ---
 ### 📄Discussão Final
